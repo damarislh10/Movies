@@ -16,12 +16,11 @@ function listMoviesI(listMovies) {
         <img class="card-img-top imageMovie" src="${movies.image}" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title text-center">${movies.name}</h5>
-            <button id='${movies.id}' id="verMovie" class="btn btn-primary butonVer"><a href="infoMovie.html">Ver ahora</a><button>
+            <button id='${movies.id}' class="btn btn-primary butonVer"><a href="infoMovie.html">Ver ahora</a><button>
             </div>
         </div>
         </div>
        
-
         `;
   });
   

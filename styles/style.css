@@ -134,7 +134,7 @@ html {
 }
 
 .slide {
-  width: 100vw;
+  /* width: 100vw; */
   flex-shrink: 0;
   animation-name: slide;
   animation-duration: 20s;
@@ -264,5 +264,15 @@ h2 > a:hover {
     .container-info {
       width: 90%;
     }
-    
+    .list a{
+      padding: 50px 20px
+    }
+   .slide img{
+     height: 200px;
+   
+    }
+    .wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+    } 
   }
